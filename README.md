@@ -9,9 +9,9 @@ Has added social media handles so that user can connect with us.
 For getting updates via mail, user can add their email id and subscribe so that they can get latest updates via mail.
 Any user can share its information related to technical topic to all users after creating their account here.
 
-https://icy-bay-0c013641e.1.azurestaticapps.net/
+https://icy-bay-0c013641e.1.azurestaticapps.net
 
-https://sudarshanz.azureedge.net
+
 
 
 https://sudarshanzimal.github.io/sudarshan/
