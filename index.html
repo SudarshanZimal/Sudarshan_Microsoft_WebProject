@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Techie - For Computer Engineer</title>
+    <link rel="icon" href="./assets/logo.png">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/905bf6176d.js" crossorigin="anonymous"></script>
+
+    <!-- --------- Owl-Carousel ------------------->
+    <link rel="stylesheet" href="style3.css">
+    <link rel="stylesheet" href="style1.css">
+
+    <!-- ------------ AOS Library ------------------------- -->
+    <link rel="stylesheet" href="style2.css">
+
+    <!-- Custom Style   -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- ----------------------------  Navigation ---------------------------------------------- -->
+
+    <nav class="nav">
+        <div class="nav-menu flex-row">
+            <div class="nav-brand">
+                <a href="#" class="text-gray">Techie</a>
+            </div>
+            <div class="toggle-collapse">
+                <div class="toggle-icons">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+            <div>
+                <ul class="nav-items">
+                    <li class="nav-link">
+                        <a href="#homepage">Home</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#about1">About</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#category">Category</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#newsletter">Contact</a>
+                    </li>
+                    <li class="nav-link but">
+                        <a class="but" onclick="document.getElementById('id01').style.display='block'" style="font-size: 1.1rem; 
+                        font-family: var(--Lexend);
+                        position: relative; 
+                        padding:  1.6rem 0rem;
+                        cursor: pointer;">Login</a>
+
+                        <div id="id01" class="modal">
+
+                            <form class="modal-content animate" action="#">
+                                <div class="imgcontainer">
+                                    <span onclick="document.getElementById('id01').style.display='none'" class="close"
+                                        title="Close">×</span>
+                                    <img src="./tech23/tech23.jpeg" alt="Avatar" class="avatar">
+                                </div>
+
+                                <div class="container1">
+                                    <label>Username</label>
+                                    <input type="text" placeholder="Enter Username" name="uname" required>
+                                    <br>
+
+                                    <label>Password&nbsp;</label>
+                                    <input type="password" placeholder="Enter Password" name="psw" required> <br>
+
+                                    <input type="checkbox" checked="checked"> Remember me
+                                    <br> <br>
+                                    <button type="submit">Login</button>
+                                    <button type="button" onclick="document.getElementById('id01').style.display='none'"
+                                        class="cancelbtn">Cancel</button>
+                                </div>
+                                <div class="container1"><span class="acc">Don't have account? &nbsp; <a href="#">sign
+                                            up</a></span>
+                                    <span class="psw">Forgot &nbsp; <a href="#">password?</a></span>
+                                </div>
+                            </form>
+                        </div>
+                        <script>
+                            var modal = document.getElementById('id01');
+                            window.onclick = function (event) {
+                                if (event.target == modal) {
+                                    modal.style.display = "none";
+                                }
+                            }
+                        </script>
+                    </li>
+
+                    <li class="nav-link but">
+                        <a class="but" onclick="document.getElementById('id02').style.display='block'" style="font-size: 1.1rem; 
+                        font-family: var(--Lexend);
+                        position: relative; 
+                        padding:  1.6rem 0rem;
+                        cursor: pointer;">Sign Up</a>
+
+                        <div id="id02" class="modal">
+
+                            <form class="modal-content animate" action="#">
+                                <div class="imgcontainer">
+                                    <span onclick="document.getElementById('id02').style.display='none'" class="close"
+                                        title="Close">×</span>
+                                    <img src="./tech23/tech23.jpeg" alt="Avatar" class="avatar">
+                                </div>
+
+                                <div class="container1">
+                                    <label>Email id&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                                    <input type="email" placeholder="Enter email id" name="uname" required> <br>
+                                    <label>Username</label>
+                                    <input type="text" placeholder="Enter Username" name="uname" required>
+                                    <br>
+
+                                    <label>Password&nbsp;</label>
+                                    <input type="password" placeholder="Enter Password" name="psw" required> <br>
+
+                                    <input type="checkbox" checked="checked" required> I accept the <a>Terms & Privacy
+                                        Policy</a>
+                                    <br> <br>
+                                    <button type="submit">Sign up</button>
+                                    <button type="button" onclick="document.getElementById('id02').style.display='none'"
+                                        class="cancelbtn">Cancel</button>
+                                </div>
+                            </form>
+                        </div>
+                        <script>
+                            var modal = document.getElementById('id02');
+                            window.onclick = function (event) {
+                                if (event.target == modal) {
+                                    modal.style.display = "none";
+                                }
+                            }
+                        </script>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+
+
+
+    <!-- ------------x---------------  Navigation --------------------------x------------------- -->
+
+    <!----------------------------- Main Site Section ------------------------------>
+
+    <main>
+
+        <!------------------------ Site Title ---------------------->
+
+        <section class="site-title">
+            <div class="site-background" id="homepage" data-aos="fade-up" data-aos-delay="100">
+                <h1>Welcome to Techie</h1>
+
+                <img src="./assets/tech23.jpeg" width="1150" height="500" alt="zoom-in" class="zoom-in">
+                <br> <br>
+                <button class="btn btn-danger">Automation</button>
+                <button class="btn btn-primary">Tech</button>
+                <button class="btn btn-success">Evolution</button>
+
+            </div>
+        </section>
+
+        <!------------x----------- Site Title ----------x----------->
+
+        <!-- --------------------- Blog Carousel ----------------- -->
+
+
+        <!-- ----------x---------- Blog Carousel --------x-------- -->
+
+        <!-- ---------------------- Site Content -------------------------->
+
+        <section class="container">
+            <div class="site-content">
+                <div class="posts">
+                    <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="post-image">
+                            <div>
+                                <img src="./assets/front1.jpeg" class="img" alt="a1">
+                            </div>
+                            <div class="post-info flex-row">
+                                <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;Admin</span>
+                                <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;Aug 20, 2021</span>
+                                <span>15 Commets</span>
+                            </div>
+                        </div>
+                        <div class="post-title">
+                            <a href="#">The computer was born to solve problems that did not exist before.</a>
+                            <p>“We need to understand that if we all work on inclusion together,
+                                it’s going to be faster, broader, better, and more thorough than
+                                anything we can do on our own."
+                            </p>
+                            <button class="btn post-btn">Read More &nbsp; <i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="post-image">
+                            <div>
+                                <img src="./assets/tech3.jpeg" class="img" alt="a2">
+                            </div>
+                            <div class="post-info flex-row">
+                                <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;Alen</span>
+                                <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;Oct 16, 2021</span>
+                                <span>10 Commets</span>
+                            </div>
+                        </div>
+                        <div class="post-title">
+                            <a href="#">The computer was born to solve problems that did not exist before.</a>
+                            <p>“We need to understand that if we all work on inclusion together,
+                                it’s going to be faster, broader, better, and
+                                more thorough than anything we can do on our own."
+                            </p>
+                            <button class="btn post-btn">Read More &nbsp; <i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="post-image">
+                            <div>
+                                <img src="./assets/web.jpeg.jpeg" class="img" alt="a3">
+                            </div>
+                            <div class="post-info flex-row">
+                                <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;John</span>
+                                <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;Dec 05, 2021</span>
+                                <span>15 Commets</span>
+                            </div>
+                        </div>
+                        <div class="post-title">
+                            <a href="#">The computer was born to solve problems that did not exist before.</a>
+                            <p>“We need to understand that if we all work on inclusion together,
+                                it’s going to be faster, broader, better, and
+                                more thorough than anything we can do on our own."
+                            </p>
+                            <button class="btn post-btn">Read More &nbsp; <i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="post-image">
+                            <div>
+                                <img src="./assets/database.jpeg" class="img" alt="a4">
+                            </div>
+                            <div class="post-info flex-row">
+                                <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;Admin</span>
+                                <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;Jan 12, 2022</span>
+                                <span>5 Commets</span>
+                            </div>
+                        </div>
+                        <div class="post-title">
+                            <a href="#">The computer was born to solve problems that did not exist before.</a>
+                            <p>“We need to understand that if we all work on inclusion together,
+                                it’s going to be faster, broader, better, and
+                                more thorough than anything we can do on our own."
+                            </p>
+                            <button class="btn post-btn">Read More &nbsp; <i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="pagination flex-row" id="pages">
+                        <a href="#"><i class="fas fa-chevron-left"></i></a>
+                        <a href="#" class="pages">1</a>
+                        <a href="#" class="pages">2</a>
+                        <a href="#" class="pages">3</a>
+                        <a href="#"><i class="fas fa-chevron-right"></i></a>
+                    </div>
+                </div>
+                <aside class="sidebar">
+                    <div class="category" id="category">
+                        <h2>Category</h2>
+                        <ul class="category-list">
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="100">
+                                <a href="#">UI</a>
+                                <span>(01)</span>
+                            </li>
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="200">
+                                <a href="#">Tech</a>
+                                <span>(02)</span>
+                            </li>
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="300">
+                                <a href="#">Evolution</a>
+                                <span>(03)</span>
+                            </li>
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="400">
+                                <a href="#">Developer</a>
+                                <span>(04)</span>
+                            </li>
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="500">
+                                <a href="#">Data Science</a>
+                                <span>(05)</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="Trending">
+                        <h2>Trending</h2>
+                        <div class="post-content" data-aos="flip-up" data-aos-delay="200">
+                            <div class="post-image">
+                                <div>
+                                    <img src="./assets/tech20.jpeg" class="img" alt="b1">
+                                </div>
+                                <div class="post-info flex-row">
+                                    <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;jun 15, 2021</span>
+                                    <span>8 Commets</span>
+                                </div>
+                            </div>
+                            <div class="post-title">
+                                <a href="#">The computer was born to solve problems that did not exist before.</a>
+                            </div>
+                        </div>
+                        <div class="post-content" data-aos="flip-up" data-aos-delay="300">
+                            <div class="post-image">
+                                <div>
+                                    <img src="./assets/tech8.jpeg" class="img" alt="b2">
+                                </div>
+                                <div class="post-info flex-row">
+                                    <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;july 01, 2021</span>
+                                    <span>19 Commets</span>
+                                </div>
+                            </div>
+                            <div class="post-title">
+                                <a href="#">The computer was born to solve problems that did not exist before.</a>
+                            </div>
+                        </div>
+                        <div class="post-content" data-aos="flip-up" data-aos-delay="400">
+                            <div class="post-image">
+                                <div>
+                                    <img src="./assets/tech4.jpeg" class="img" alt="b3">
+                                </div>
+                                <div class="post-info flex-row">
+                                    <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;Dec 8, 2021</span>
+                                    <span>5 Commets</span>
+                                </div>
+                            </div>
+                            <div class="post-title">
+                                <a href="#">The computer was born to solve problems that did not exist before.</a>
+                            </div>
+                        </div>
+                        <div class="post-content" data-aos="flip-up" data-aos-delay="500">
+                            <div class="post-image">
+                                <div>
+                                    <img src="./assets/tech6.jpeg" class="img" alt="b4">
+                                </div>
+                                <div class="post-info flex-row">
+                                    <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;Jan 27, 2022</span>
+                                    <span>10 Commets</span>
+                                </div>
+                            </div>
+                            <div class="post-title">
+                                <a href="#">The computer was born to solve problems that did not exist before.</a>
+                            </div>
+                        </div>
+                        <div class="post-content" data-aos="flip-up" data-aos-delay="600">
+                            <div class="post-image">
+                                <div>
+                                    <img src="./assets/tech5.jpeg" class="img" alt="b5">
+                                </div>
+                                <div class="post-info flex-row">
+                                    <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;Jan 30, 2022</span>
+                                    <span>18 Commets</span>
+                                </div>
+                            </div>
+                            <div class="post-title">
+                                <a href="#">The computer was born to solve problems that did not exist before.</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="newsletter" id="newsletter" data-aos="fade-up" data-aos-delay="300">
+                        <h2>For more updates</h2>
+                        <div class="form-element">
+                            <input type="text" class="input-element" placeholder="Email">
+                            <button class="btn form-btn">Subscribe</button>
+                        </div>
+                    </div>
+                    <div class="popular-tags">
+                        <h2>Popular Tags</h2>
+                        <div class="tags flex-row">
+                            <span class="tag" data-aos="flip-up" data-aos-delay="100">technology</span>
+                            <span class="tag" data-aos="flip-up" data-aos-delay="200">data structure</span>
+                            <span class="tag" data-aos="flip-up" data-aos-delay="300">algorithm</span>
+                            <span class="tag" data-aos="flip-up" data-aos-delay="500">data science</span>
+                            <span class="tag" data-aos="flip-up" data-aos-delay="600">development</span>
+                            <span class="tag" data-aos="flip-up" data-aos-delay="700">project </span>
+                            <span class="tag" data-aos="flip-up" data-aos-delay="800">UI</span>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </section>
+
+        <!-- -----------x---------- Site Content -------------x------------>
+
+    </main>
+
+    <!---------------x------------- Main Site Section ---------------x-------------->
+
+
+    <!-- --------------------------- Footer ---------------------------------------- -->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="about-us" id="about1" data-aos="fade-right" data-aos-delay="200">
+                <h2>About us</h2>
+                <p>The computer was born to solve problems that did not exist before.</p>
+            </div>
+            <div class="newsletter" data-aos="fade-right" data-aos-delay="200">
+                <h2>Subscribe</h2>
+                <p>Stay update with our latest</p>
+                <div class="form-element">
+                    <input type="text" placeholder="Email"><span><i class="fas fa-chevron-right"></i></span>
+                </div>
+            </div>
+            <div class="instagram" data-aos="fade-left" data-aos-delay="200">
+                <h2>Recommended</h2>
+                <div class="flex-row">
+                    <img src="./assets/tech18.jpeg" alt="insta1">
+                    <img src="./assets/tech19.jpeg" alt="insta2">
+                    <img src="./assets/tech20.jpeg" alt="insta3">
+                </div>
+                <div class="flex-row">
+                    <img src="./assets/tech21.jpeg" alt="insta4">
+                    <img src="./assets/tech17.jpeg" alt="insta5">
+                    <img src="./assets/tech16.jpeg" alt="insta6">
+                </div>
+            </div>
+            <div class="follow" data-aos="fade-left" data-aos-delay="200">
+                <h2>Follow us</h2>
+                <p>Let us be Social</p>
+                <div class="social text-gray">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="https://github.com/SudarshanZimal"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/sudarshan-zimal-353b46223/"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="rights flex-row">
+            <h4 class="text-gray">
+                Copyright ©2022 All rights reserved | made by
+                <a target="_black">Sudarshan Zimal</a>
+            </h4>
+        </div>
+        <div class="move-up">
+            <span><i class="fas fa-arrow-circle-up fa-2x"></i></span>
+        </div>
+    </footer>
+
+    <!-- -------------x------------- Footer --------------------x------------------- -->
+
+    <!-- Jquery Library file -->
+    <script src="./js/Jquery3.4.1.min.js"></script>
+
+    <!-- --------- Owl-Carousel js ------------------->
+    <script src="./js/owl.carousel.min.js"></script>
+
+    <!-- ------------ AOS js Library  ------------------------- -->
+    <script src="./js/aos.js"></script>
+
+    <!-- Custom Javascript file -->
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
