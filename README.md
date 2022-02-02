@@ -1,3 +1,14 @@
+NOTE
+
+After Deploying code my Future Ready Talent project Website is working properly.
+After 3 to 4 hours Website show 404 error.
+
+Check Website status in GitHub readme file.
+After deploying the code. I have make video and upload in GitHub readme file.
+
+
+
+
 This is educational Front End Website design.
 
 ****************************************************************************************************************************
