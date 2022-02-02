@@ -84,9 +84,15 @@ to all users after creating their account here.
 We are using Azure Technologies with GitHub to complete this project.
 
 ******************************************************************************************************************************************
-https://icy-bay-0c013641e.1.azurestaticapps.net
 
+WEBSITE URL
 
+nice-bush-02108db1e.1.azurestaticapps.net
+
+********************************************************************************************************************************************
 
 
 https://sudarshanzimal.github.io/sudarshan/
+
+
+************************************************************************************************************************************
