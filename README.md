@@ -7,6 +7,12 @@ After 3 to 4 hours Website shows 404 error.
 After deploying the code. I have made video for checking website status and upload in GitHub readme file.
 Please Check Website status in GitHub readme file.
 
+************************************************************************************************************
+
+GitHub repositories link working properly
+
+https://sudarshanzimal.github.io/sudarshan/
+
 **************************************************************************************************************************
 
 This is educational Front End Website design.
