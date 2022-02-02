@@ -50,6 +50,31 @@ Steps to run the project
 
 *****************************************************************************************************************************
 
+
+PROBLEM STATEMENT
+
+This is a simple Educational Blog website. It is a responsive front-end static website designed by using HTML and  CSS . 
+It allows the users to have a look on layout of the website having different features. Any user (Programmer)
+can have a look on different features of layout of the website like Home, About, Category, Pages, Contact Us, etc.
+This website provide every single update in this technical world to the user.
+
+
+****************************************************************************************************************************************
+
+
+PROJECT DESCRIPTION:
+
+Core idea of project is to build an sample educational blog website. It is a responsive front-end static website
+designed by using HTML and  CSS.This is a single page website and it has pretty responsive and animated layout for 
+user to catch attention.Has a logo and name of the Educational blog on the top-left of layout.
+Has different features visible on the navigation bar of the layout. It contains Some highlights of the blog.
+Also it contains blogs on trending technologies and few posts too. Has added social media handles so 
+that user can connect with us. For getting updates via mail, user can add their email id and subscribe
+so that they can get latest updates via mail. Any user can share its information related to technical topic
+to all users after creating their account here.
+We are using Azure Technologies with GitHub to complete this project.
+
+******************************************************************************************************************************************
 https://icy-bay-0c013641e.1.azurestaticapps.net
 
 
