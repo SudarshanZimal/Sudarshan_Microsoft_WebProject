@@ -149,3 +149,6 @@ https://user-images.githubusercontent.com/98067580/152132821-312466d2-59aa-42b7-
 
 
 *******************************************************************************************************************8
+Full video of website status.
+https://drive.google.com/drive/folders/12Nhyk7uNNnBW3fFbun6KqhyZ-CQ4R8yX
+
