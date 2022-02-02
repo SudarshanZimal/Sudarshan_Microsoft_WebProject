@@ -9,7 +9,7 @@ Please Check Website status in GitHub readme file.
 
 ************************************************************************************************************
 
-GitHub repositories link working properly
+GitHub repositories Website link working properly.
 
 https://sudarshanzimal.github.io/sudarshan/
 
