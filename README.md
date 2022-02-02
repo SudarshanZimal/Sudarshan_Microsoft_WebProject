@@ -80,7 +80,9 @@ Has different features visible on the navigation bar of the layout. It contains 
 Also it contains blogs on trending technologies and few posts too. Has added social media handles so 
 that user can connect with us. For getting updates via mail, user can add their email id and subscribe
 so that they can get latest updates via mail. Any user can share its information related to technical topic
-to all users after creating their account here.
+to all users after creating their account here.  
+WE Use asure static web app service . Azure Static Web Apps is a modern web app service that
+offers streamlined full-stack development from source code to global high availability.
 We are using Azure Technologies with GitHub to complete this project.
 
 ******************************************************************************************************************************************
